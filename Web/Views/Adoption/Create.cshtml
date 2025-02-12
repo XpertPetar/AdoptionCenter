@@ -7,23 +7,23 @@
     <div class="row min-vh-100">
         <div class="col-md-6 d-flex align-items-center justify-content-center">
             <div style="width: 80%">
-                <h4>Fill out the information below to get your future pet</h4>
+                <h4>Complete the form below to find your perfect furry companion</h4>
                 <hr />
                 <form asp-action="Create" method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     <div class="form-group">
-                        <label asp-for="AdoptionApplication.FirstName" class="control-label"></label>
+                        <label asp-for="AdoptionApplication.FirstName" class="control-label">First Name</label>
                         <input asp-for="AdoptionApplication.FirstName" class="form-control" />
                         <span asp-validation-for="AdoptionApplication.FirstName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="AdoptionApplication.LastName " class="control-label"></label>
+                        <label asp-for="AdoptionApplication.LastName " class="control-label">Last Name</label>
                         <input asp-for="AdoptionApplication.LastName" class="form-control" />
                         <span asp-validation-for="AdoptionApplication.LastName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="AdoptionApplication.Phone" class="control-label"></label>
+                        <label asp-for="AdoptionApplication.Phone" class="control-label">Phone Number</label>
                         <input asp-for="AdoptionApplication.Phone" class="form-control" />
                         <span asp-validation-for="AdoptionApplication.Phone" class="text-danger"></span>
                     </div>
